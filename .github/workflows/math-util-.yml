@@ -15,10 +15,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 8.0 - Mượn JDK của server 
+    - name: Set up JDK 18 - Mượn JDK của server 
       uses: actions/setup-java@v3
       with:
-        java-version: '8.0'
+        java-version: '18'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - đóng gói app thành .Jar bên Server Mỹ
