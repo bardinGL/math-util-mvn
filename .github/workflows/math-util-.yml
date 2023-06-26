@@ -18,7 +18,7 @@ jobs:
     - name: Set up JDK 8.0 - Mượn JDK của server 
       uses: actions/setup-java@v3
       with:
-        java-version: ''
+        java-version: '8.0'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - đóng gói app thành .Jar bên Server Mỹ
